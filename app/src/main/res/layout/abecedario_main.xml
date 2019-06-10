@@ -5,6 +5,142 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo">
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="47dp"
+                android:fontFamily="sans-serif-black"
+                android:text="ABECEDARIO"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="64dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/a"
+                android:text="Button" />
+
+            <ImageButton
+                android:id="@+id/crack"
+                android:layout_width="76dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="137dp"
+                android:layout_marginTop="-70dp"
+                android:background="@android:color/transparent"
+                android:text="Button"
+                fab:srcCompat="@drawable/b" />
+
+            <ImageButton
+                android:id="@+id/button42"
+                android:layout_width="76dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-70dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/c"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/crackk"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="-3dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:src="@drawable/c"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/button424"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:src="@drawable/c"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/buttonn"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-27dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:src="@drawable/c"
+                android:text="Maya"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/buttonnn"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:src="@drawable/c"
+                android:text="Español"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/crackkn"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="-21dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:src="@drawable/c"
+                android:text="Español"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/button424n"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-21dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-black"
+                android:src="@drawable/c"
+                android:text="Español"
+                android:textSize="15sp" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/material_design_android_floating_action_menu"
@@ -108,16 +244,5 @@
 
     </com.github.clans.fab.FloatingActionMenu>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="49dp"
-        android:fontFamily="sans-serif-black"
-        android:text="ABECEDARIO"
-        android:textColor="@android:color/white"
-        android:textSize="30sp" />
+
 </RelativeLayout>
